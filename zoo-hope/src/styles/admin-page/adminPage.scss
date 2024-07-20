@@ -79,16 +79,11 @@
 }
 
 .sidebar-option__title {
-<<<<<<< HEAD
-  font-size: calc(var(--index) * 0.9);
-  font-weight: 500;
-=======
     font-size: calc(var(--index) * .9);
     font-weight: 500;
     border: none;
     outline: none;
     background: none;
->>>>>>> dev
 }
 
 .sidebar-option__dropdown-btn {
@@ -206,17 +201,6 @@
 }
 
 .sidebar-user-popup__btn {
-<<<<<<< HEAD
-  display: flex;
-  align-items: center;
-  gap: calc(var(--index) * 0.4);
-  font-size: calc(var(--index) * 0.7);
-  cursor: pointer;
-  font-weight: 500;
-  padding: calc(var(--index) * 0.5) calc(var(--index) * 0.9)
-    calc(var(--index) * 0.3) calc(var(--index) * 1.1);
-  background-color: $adminPageTransparentYellow;
-=======
     display: flex;
     align-items: center;
     gap: calc(var(--index) * .4);
@@ -226,7 +210,6 @@
     padding: calc(var(--index) * .5) calc(var(--index) * .9) calc(var(--index) * .3) calc(var(--index) * 1.1);
     background-color: $adminPageTransparentYellow;
     text-decoration: none;
->>>>>>> dev
 
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -319,14 +302,9 @@
 }
 
 .main-content {
-<<<<<<< HEAD
-  width: 100%;
-  height: calc(100vh - var(--index) * 4);
-=======
     width: 100%;
     overflow-y: auto;
     height: calc(100vh - var(--index) * 4);
->>>>>>> dev
 }
 
 .main-content__container {
@@ -374,26 +352,6 @@
 .admin-table__row {
   cursor: pointer;
 
-<<<<<<< HEAD
-  > th {
-    text-align: center;
-    padding: calc(var(--index) * 0.3) calc(var(--index) * 1);
-    border: 2.5px solid $adminPageBorders;
-    border-left: none;
-    border-top: none;
-  }
-
-  > td {
-    max-width: calc(var(--index) * 8);
-    text-align: center;
-    padding: calc(var(--index) * 0.3) calc(var(--index) * 1);
-    border: 2.5px solid $adminPageBorders;
-    border-left: none;
-    border-top: none;
-    white-space: nowrap;
-    overflow-x: auto;
-  }
-=======
     >th {
         text-align: center;
         padding: calc(var(--index) * .3) calc(var(--index) * 1);
@@ -414,7 +372,6 @@
         overflow-x: auto;
         font-size: calc(var(--index) * .7);
     }
->>>>>>> dev
 
   > td::-webkit-scrollbar {
     width: 0px;
@@ -448,14 +405,6 @@
 
 .pet-form,
 .contacts-form,
-<<<<<<< HEAD
-.help-option-form {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.595);
-  z-index: 999;
-=======
 .help-option-form,
 .admin-form,
 .helpful-info-form {
@@ -464,24 +413,10 @@
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.595);
     z-index: 999;
->>>>>>> dev
 }
 
 .pet-form__container,
 .contacts-form__container,
-<<<<<<< HEAD
-.help-option-form__container {
-  width: 60%;
-  height: 100%;
-  background-color: $adminPageDefaultWhite;
-  overflow-y: auto;
-  padding: calc(var(--index) * 1) calc(var(--index) * 2)
-    calc(var(--index) * 1.5) calc(var(--index) * 2);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-=======
 .help-option-form__container,
 .admin-form__container,
 .helpful-info-form__container {
@@ -494,20 +429,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
->>>>>>> dev
 }
 
 .pet-form__header,
 .contacts-form__header,
-<<<<<<< HEAD
-.help-option-form__header {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: calc(var(--index) * 0.5);
-=======
 .help-option-form__header,
 .admins-form__header,
 .helpful-info-form__header {
@@ -517,35 +442,23 @@
     justify-content: center;
     align-items: center;
     gap: calc(var(--index) * .5);
->>>>>>> dev
 }
 
 .pet-form__logo,
 .contacts-form__logo,
-<<<<<<< HEAD
-.help-option-form__logo {
-  width: 11.5%;
-=======
 .help-option-form__logo,
 .admins-form__logo,
 .helpful-info-form__logo {
     width: 11.5%;
->>>>>>> dev
 }
 
 .pet-form__title,
 .contacts-form__title,
-<<<<<<< HEAD
-.help-option-form__title {
-  font-size: calc(var(--index) * 1.2);
-  font-weight: 600;
-=======
 .help-option-form__title,
 .admins-form__title,
 .helpful-info-form__title {
     font-size: calc(var(--index) * 1.2);
     font-weight: 600;
->>>>>>> dev
 }
 
 .pet-form__form {
@@ -556,14 +469,6 @@
 }
 
 .contacts-form__form,
-<<<<<<< HEAD
-.help-option-form__form {
-  display: flex;
-  flex-direction: column;
-  gap: calc(var(--index) * 2);
-  justify-content: space-between;
-  height: 80%;
-=======
 .help-option-form__form,
 .admins-form__form,
 .helpful-info-form__form {
@@ -572,24 +477,16 @@
     gap: calc(var(--index) * 2);
     justify-content: space-between;
     height: 80%;
->>>>>>> dev
 }
 
 .pet-form__form-content,
 .contacts-form__form-content,
-<<<<<<< HEAD
-.help-option-form__form-content {
-  display: flex;
-  gap: calc(var(--index) * 4);
-  margin-top: calc(var(--index) * 1.4);
-=======
 .help-option-form__form-content,
 .admins-form__form-content,
 .helpful-info-form__form-content {
     display: flex;
     gap: calc(var(--index) * 4);
     margin-top: calc(var(--index) * 1.4);
->>>>>>> dev
 }
 
 .pet-form-ua,
@@ -597,15 +494,10 @@
 .contacts-form-ua,
 .contacts-form-en,
 .help-option-form-ua,
-<<<<<<< HEAD
-.help-option-form-en {
-  flex: 1;
-=======
 .help-option-form-en,
 .helpful-info-form-ua,
 .helpful-info-form-en {
     flex: 1;
->>>>>>> dev
 
   display: flex;
   flex-direction: column;
@@ -636,13 +528,6 @@
 .contacts-form-ua__title,
 .contacts-form-en__title,
 .help-option-form-ua__title,
-<<<<<<< HEAD
-.help-option-form-en__title {
-  font-size: calc(var(--index) * 0.8);
-  text-align: start;
-  font-weight: 500;
-  color: #ffc400;
-=======
 .help-option-form-en__title,
 .admins-form-ua__title,
 .helpful-info-form-ua__title,
@@ -651,19 +536,10 @@
     text-align: start;
     font-weight: 500;
     color: #ffc400;
->>>>>>> dev
 }
 
 .pet-form-ua__input,
 .contacts-form-ua__input,
-<<<<<<< HEAD
-.help-option-form-ua__input {
-  width: 100%;
-  border: none;
-  border-bottom: 2.2px solid $primaryColor;
-  outline: none;
-  font-size: calc(var(--index) * 0.7);
-=======
 .help-option-form-ua__input,
 .helpful-info-form-ua__input {
     width: 100%;
@@ -671,7 +547,6 @@
     border-bottom: 2.2px solid $primaryColor;
     outline: none;
     font-size: calc(var(--index) * .7);
->>>>>>> dev
 
   &::placeholder {
     color: $adminPagePlaceholder;
@@ -707,100 +582,8 @@
 
 .pet-form-en__input,
 .contacts-form-en__input,
-<<<<<<< HEAD
-.help-option-form-en__input {
-  width: 100%;
-  border: none;
-  border-bottom: 2.2px solid $primaryColor;
-  outline: none;
-  font-size: calc(var(--index) * 0.7);
-
-  &::placeholder {
-    color: $adminPagePlaceholder;
-  }
-}
-
-.pet-form-ua__checkboxes {
-  display: flex;
-  gap: calc(var(--index) * 1.4);
-
-  label {
-    display: block;
-    position: relative;
-    cursor: pointer;
-    user-select: none;
-
-    &:hover {
-      input ~ span {
-        background-color: $adminPageTransparentYellow;
-      }
-    }
-
-    input {
-      position: absolute;
-      display: none;
-      cursor: pointer;
-
-      &:checked {
-        ~ span {
-          background-color: $primaryColor;
-          border: none;
-        }
-
-        ~ span::after {
-          display: block;
-        }
-      }
-    }
-
-    span {
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: calc(var(--index) * 0.9);
-      width: calc(var(--index) * 0.9);
-      background-color: $adminPageDefaultWhite;
-      border: 2.2px solid $primaryColor;
-
-      &::after {
-        content: "";
-        position: absolute;
-        display: none;
-        left: calc(var(--index) * 0.33);
-        top: calc(var(--index) * 0.13);
-        width: calc(var(--index) * 0.29);
-        height: calc(var(--index) * 0.5);
-        border: solid $adminPageDefaultWhite;
-        border-width: 0 3px 3px 0;
-        transform: rotate(45deg);
-        -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-      }
-    }
-  }
-
-  p {
-    font-size: calc(var(--index) * 0.7);
-    padding-left: calc(var(--index) * 1.2);
-    font-weight: 500;
-  }
-}
-
-.pet-form-ua__input-age {
-  display: flex;
-  gap: calc(var(--index) * 0.6);
-
-  label {
-    display: flex;
-    align-items: flex-end;
-    gap: calc(var(--index) * 0.6);
-  }
-
-  input {
-=======
 .help-option-form-en__input,
 .helpful-info-form-en__input {
->>>>>>> dev
     width: 100%;
     border: none;
     border-bottom: 2.2px solid $primaryColor;
@@ -810,14 +593,6 @@
     &::placeholder {
       color: $adminPagePlaceholder;
     }
-<<<<<<< HEAD
-  }
-
-  p {
-    font-size: calc(var(--index) * 0.7);
-    font-weight: 500;
-  }
-=======
 }
 .help-option-form__form-content__quill{
     width: 100%;
@@ -915,7 +690,6 @@
         font-size: calc(var(--index) * .7);
         font-weight: 500;
     }
->>>>>>> dev
 }
 
 .pet-form-ua__input-size {
@@ -954,16 +728,6 @@
 .pet-form-ua__textarea,
 .pet-form-en__textarea,
 .help-option-form-ua__textarea,
-<<<<<<< HEAD
-.help-option-form-en__textarea {
-  width: 100%;
-  height: calc(var(--index) * 6);
-  border: 2.2px solid $primaryColor;
-  outline: none;
-  font-size: calc(var(--index) * 0.7);
-  resize: none;
-  padding: calc(var(--index) * 0.5);
-=======
 .help-option-form-en__textarea,
 .helpful-info-form-ua__textarea,
 .helpful-info-form-en__textarea {
@@ -974,7 +738,6 @@
     font-size: calc(var(--index) * .7);
     resize: none;
     padding: calc(var(--index) * .5);
->>>>>>> dev
 
   &::placeholder {
     color: $adminPagePlaceholder;
@@ -983,17 +746,11 @@
 
 .pet-form__close-btn,
 .contacts-form__close-btn,
-<<<<<<< HEAD
-.help-option-form__close-btn {
-  width: 100%;
-  margin-top: calc(var(--index) * -0.3);
-=======
 .help-option-form__close-btn,
 .admin-form__close-btn,
 .helpful-info-form__close-btn {
     width: 100%;
     margin-top: calc(var(--index) * -.3);
->>>>>>> dev
 
   button {
     background: none;
@@ -1018,15 +775,10 @@
 
 .pet-form__add-btn,
 .contacts-form__add-btn,
-<<<<<<< HEAD
-.help-option-form__add-btn {
-  width: 100%;
-=======
 .help-option-form__add-btn,
 .admins-form__add-btn,
 .helpful-info-form__add-btn {
     width: 100%;
->>>>>>> dev
 
   > button {
     float: right;
@@ -1051,15 +803,6 @@
     -ms-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
 
-<<<<<<< HEAD
-    &:hover {
-      background-color: $adminPageDefaultWhite;
-      transition: all 0.3s ease-in-out;
-      -webkit-transition: all 0.3s ease-in-out;
-      -moz-transition: all 0.3s ease-in-out;
-      -ms-transition: all 0.3s ease-in-out;
-      -o-transition: all 0.3s ease-in-out;
-=======
         &:hover {
             background-color: $adminPageDefaultWhite;
             transition: all .3s ease-in-out;
@@ -1076,7 +819,6 @@
         .helpful-info-form__add-btn-logo {
             margin-bottom: -3px;
         }
->>>>>>> dev
     }
 
     > .pet-form__add-btn-logo,
@@ -1085,7 +827,7 @@
       margin-bottom: -3px;
     }
   }
-}
+
 
 .pet-form__files-input,
 .contacts-form__files-input {
@@ -1120,13 +862,6 @@
 
 .pet-form__images,
 .contacts-form__images {
-<<<<<<< HEAD
-  width: 100%;
-  height: calc(var(--index) * 1.5);
-  display: flex;
-  gap: calc(var(--index) * 0.8);
-  flex-wrap: wrap;
-=======
     width: 100%;
     height: max-content;
     display: flex;
@@ -1148,7 +883,6 @@
     &:hover{
         background-color: $adminPageTransparentYellow;
     }
->>>>>>> dev
 }
 
 .pet-form__image,
@@ -1324,10 +1058,6 @@
       -ms-transition: all 0.3s ease-in-out;
       -o-transition: all 0.3s ease-in-out;
     }
-<<<<<<< HEAD
-  }
-}
-=======
 }
 
 
@@ -1685,4 +1415,4 @@
         font-size: calc(var(--index) * 1.3);
     }
 }
->>>>>>> dev
+}

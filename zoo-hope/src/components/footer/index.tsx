@@ -89,16 +89,6 @@ export const Footer = () => {
                 <FooterBottomText key={i} props={e} />
               )
             );
-<<<<<<< HEAD
-          })}
-          {elements.map((e: Object, i: number) => {
-            return (
-              e.hasOwnProperty("footerBottomLink") && (
-                <FooterNavBlockLink key={i} props={e} />
-              )
-            );
-=======
->>>>>>> dev
           })}
         </div>
       </div>
