@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/project/static/css/main.c184c409.css",
+    "main.js": "/project/static/js/main.10811d0a.js",
+    "static/js/592.ec3f0b9e.chunk.js": "/project/static/js/592.ec3f0b9e.chunk.js",
+    "static/media/img_1.png": "/project/static/media/img_1.719e9f1e5e26818577ac.png",
+    "static/media/Instagram.svg": "/project/static/media/Instagram.59c3f768b9c84991b3cb638d483b1718.svg",
+    "static/media/background.png": "/project/static/media/background.80d351ef65f2f706ca1e.png",
+    "static/media/img_2.png": "/project/static/media/img_2.7e07d9919b06ff8b4f6d.png",
+    "static/media/dog.png": "/project/static/media/dog.1fe4332d4e89e18e642c.png",
+    "static/media/img_3.jpg": "/project/static/media/img_3.11e0fd8ea2b0e384cc3c.jpg",
+    "static/media/0-0.png": "/project/static/media/0-0.b7ec62bdc88dbafef22d.png",
+    "static/media/ukr_logo.jpg": "/project/static/media/ukr_logo.01536e4cd05f2bc34eb4.jpg",
+    "static/media/facebook.svg": "/project/static/media/facebook.db56ab3b33938b354930390816b88f97.svg",
+    "static/media/donate-icon.png": "/project/static/media/donate-icon.6f1ed11a5b5df2a961ae.png",
+    "static/media/transparent-logo.png": "/project/static/media/transparent-logo.6be2b66524ac00837984.png",
+    "static/media/pomeranian-svgrepo-com.svg": "/project/static/media/pomeranian-svgrepo-com.99100aff00dd1e633df03328e8ea102b.svg",
+    "static/media/noun-paw.svg": "/project/static/media/noun-paw.2dbbff5a41a24787b8e9c0147676f4bb.svg",
+    "static/media/slick.svg": "/project/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/project/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/project/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/project/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/pet.svg": "/project/static/media/pet.8825a480e2436aa33b48dfd35b7e2862.svg",
+    "index.html": "/project/index.html",
+    "static/media/arrow-up-right-from-square-solid.svg": "/project/static/media/arrow-up-right-from-square-solid.5370bac9353a5447124dce523c85a62b.svg",
+    "main.c184c409.css.map": "/project/static/css/main.c184c409.css.map",
+    "main.10811d0a.js.map": "/project/static/js/main.10811d0a.js.map",
+    "592.ec3f0b9e.chunk.js.map": "/project/static/js/592.ec3f0b9e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c184c409.css",
+    "static/js/main.10811d0a.js"
+  ]
+}
